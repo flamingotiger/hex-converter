@@ -1,14 +1,75 @@
 .container {
-  position: absolute;
-  top: 30%;
-  left: 10px;
+  padding: 3rem;
   text-align: center;
 }
 
 .container h2 {
-  font-size: 5rem;
+  font-size: 2.5rem;
+  font-weight: lighter;
+  margin-bottom: 2rem;
 }
 
-.container a {
-  font-size: 1.4rem;
+.formWrapper {
+  position: relative;
+  width: 100%;
+  border-radius: 0.5rem;
+  background-color: white;
+  box-shadow: 0 1px 0.5rem rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.inputWrapper {
+  position: relative;
+  padding: 1rem;
+  transition: 0.5s;
+}
+
+.labelName {
+  width: 100%;
+  color: rgb(74, 111, 255);
+  font-size: 1.2rem;
+  font-weight: lighter;
+  text-align: left;
+}
+
+.inputCode {
+  width: 100%;
+  color: rgb(74, 111, 255);
+  font-size: 2rem;
+  font-weight: lighter;
+  border: 0;
+  border-bottom: 1px solid rgb(74, 111, 255);
+  background: none;
+  outline: none;
+  padding: 0.2rem;
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  color: white;
+  background-color: rgb(74, 111, 255);
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.changeFields {
+  position: absolute;
+  height: 2.2rem;
+  width: 2.2rem;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  border: 1px solid rgb(74, 111, 255);
+  color: rgb(74, 111, 255);
+  transform: rotate(90deg);
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  margin-left: -1.1rem;
+  margin-top: -1.1rem;
+  background: white;
 }
